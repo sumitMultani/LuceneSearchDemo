@@ -33,7 +33,7 @@ public class LuceneReadIndexExample {
         }
 
         //Search by firstName
-        TopDocs foundDocs2 = searchByFirstName("Brian", searcher);
+        TopDocs foundDocs2 = searchByFirstName("Mohit", searcher);
         System.out.println("Total Results :: " + foundDocs2.totalHits);
 
         for (ScoreDoc sd : foundDocs2.scoreDocs) {
